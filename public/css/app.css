@@ -8,3 +8,9 @@ body {
   margin-top: 5%;
 }
 
+@media screen and (max-device-width: 1023px){
+    .tile.is-child{
+        margin-left: 2% !important;
+    }
+}
+
