@@ -11,13 +11,15 @@ use Illuminate\Support\Facades\Mail;
 class ContactController extends Controller
 {
     public function show(){
+        //Return the homepage when user navigates to the website
         return view('welcome');
     }
 
     public function store(Request $request){
 
+        //Call the mail function when the user hits the submit button
 
-
+        //Check if all inputs are valid
         $request->validate([
             'name' => 'required',
             'email' => 'required',
@@ -28,7 +30,7 @@ class ContactController extends Controller
         ]);
 
 
-
+        //Convert all form inputs to variables
         $name = $request->name;
         $email = $request->email;
         $phone = $request->phone;

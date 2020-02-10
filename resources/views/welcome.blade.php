@@ -29,7 +29,7 @@
             <div class="tile is-horizontal">
                 <div class="tile is-parent is-6">
                     <div class="tile is-child box">
-                        <!-- Text here -->
+                        <!-- Text aspect of the website -->
                         <h1 class="title is-4"><strong>Empire entertainment</strong></h1>
                         <p>
                             Empire Events & Entertainment is dé totaalpartner op het gebied van evenementen, entertainment en producties.
@@ -70,6 +70,7 @@
                 </div>
                 <div class="tile is-parent">
                     <div class="tile is-child box">
+                        <!-- Form aspect of the website. -->
                         <h1 class="title is-4"><strong>Neem contact</strong></h1>
 
                         <form action="/" method="POST">
