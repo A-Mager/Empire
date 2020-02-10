@@ -51,6 +51,6 @@ class ContactAdmin extends Mailable
     {
         //Merge the given variables with the mail. (resources/views/emails/newRequest)
         return $this->markdown('emails.newRequest')
-            ->subject('Betreft:' .$this->subject);
+            ->subject('Betreft: ' .$this->subject);
     }
 }
