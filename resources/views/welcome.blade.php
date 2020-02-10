@@ -49,10 +49,14 @@
                         </p>
                         <br/>
                         <h1 class="title is-6">Contact info</h1>
-                        <p>Neem direct contact op of verstuur een verzoek met het formulier!</p>
+                        <p>Neem direct contact op of verstuur een verzoek met het formulier!</p><br/>
                         <div class="box">
                             <article class="media">
-
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img src="images/empire-logo.jpg" alt="Image">
+                                    </figure>
+                                </div>
                                 <div class="media-content">
                                     <div class="content">
                                         <p>
