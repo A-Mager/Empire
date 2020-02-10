@@ -132,7 +132,6 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="captcha">Captcha</label>
                                 {!! NoCaptcha::renderJs() !!}
                                 {!! NoCaptcha::display() !!}
                                 <span class="help is-danger">{{ $errors->first('g-recaptcha-response') }}</span>
