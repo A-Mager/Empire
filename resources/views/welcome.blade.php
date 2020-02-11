@@ -23,8 +23,20 @@
 
     </head>
     <body>
+    <section class="hero is-small is-primary is-fullwidth has-background-black">
+        <div class="hero-body">
+            <figure class="image container header-img is-hidden-touch">
+                <img src="images/empire-logo.jpg"/>
+            </figure>
+            <div class="container has-text-centered is-hidden-desktop">
+                <p class="title">
+                    Empire Entertainment
+                </p>
+            </div>
+        </div>
 
-    <div class="container" id="app">
+    </section>
+    <div class="container page-content" >
         <div class="tile is-ancestor">
             <div class="tile is-horizontal">
                 <div class="tile is-parent is-6">

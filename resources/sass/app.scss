@@ -1,15 +1,20 @@
 //
-
+$desktop_breakpoint: 1023px;
 
 html{
     background-image: url("/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-body
+.page-content
 {
-    margin-top: 5%;
+    margin-top: 2%;
+    @media screen and (max-width: $desktop_breakpoint){
+        margin-left: 3%;
+    }
 }
-
+.header-img
+{
+    width: 15%;
+}
 
