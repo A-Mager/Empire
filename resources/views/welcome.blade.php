@@ -42,7 +42,7 @@
                 <div class="tile is-parent is-6">
                     <div class="tile is-child box">
                         <!-- Text aspect of the website -->
-                        <h1 class="title is-4"><strong>Empire entertainment</strong></h1>
+                        <h1 class="title is-4"><strong>Empire Entertainment</strong></h1>
                         <p>
                             Empire Events & Entertainment is dé totaalpartner op het gebied van evenementen, entertainment en producties.
                             U bent bij ons aan het juiste adres voor de verbinding tussen uw wensen en de perfecte uitkomst waar uw gasten nog lang over zullen napraten.
