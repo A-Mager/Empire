@@ -21,20 +21,20 @@ class ContactController extends Controller
 
         //Check if all inputs are valid
         $request->validate([
-            'name' => 'required',
+            'naam' => 'required',
             'email' => ['required', 'email'],
-            'phone' => ['required', 'regex:/^((\+|00(\s|\s?\-\s?)?)31(\s|\s?\-\s?)?(\(0\)[\-\s]?)?|0)[1-9]((\s|\s?\-\s?)?[0-9])((\s|\s?-\s?)?[0-9])((\s|\s?-\s?)?[0-9])\s?[0-9]\s?[0-9]\s?[0-9]\s?[0-9]\s?[0-9]$/'],
-            'subject' => 'required',
-            'content' => ['required', 'min:1', 'max:1200'],
+            'telefoon' => ['required', 'regex:/^((\+|00(\s|\s?\-\s?)?)31(\s|\s?\-\s?)?(\(0\)[\-\s]?)?|0)[1-9]((\s|\s?\-\s?)?[0-9])((\s|\s?-\s?)?[0-9])((\s|\s?-\s?)?[0-9])\s?[0-9]\s?[0-9]\s?[0-9]\s?[0-9]\s?[0-9]$/'],
+            'onderwerp' => 'required',
+            'inhoud' => ['required', 'min:1', 'max:1200'],
             'g-recaptcha-response' => 'required|captcha',
         ]);
 
         //Convert all form inputs to variables
-        $name = $request->name;
+        $name = $request->naam;
         $email = $request->email;
-        $phone = $request->phone;
-        $subject = $request->subject;
-        $content = $request->input('content');
+        $phone = $request->telefoon;
+        $subject = $request->onderwerp;
+        $content = $request->input('inhoud');
 
 
         //Send mail to the user as verification

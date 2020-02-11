@@ -97,8 +97,8 @@
                                 <label class="label"for="name">Naam</label>
 
                                 <div class="control">
-                                    <input type="text" class="input" name="name" id="name" required>
-                                    <p class="help is-danger">{{ ($errors->first('name')) }}</p>
+                                    <input type="text" class="input" name="naam" id="naam" required>
+                                    <p class="help is-danger">{{ ($errors->first('naam')) }}</p>
                                 </div>
 
                             </div>
@@ -118,8 +118,8 @@
                                 <label for="phone" class="label">Telefoon</label>
 
                                 <div class="control">
-                                    <input type="tel" class="input" name="phone" id="phone" placeholder="06(-)12345678" required>
-                                    <p class="help is-danger">{{ $errors->first('phone') }}</p>
+                                    <input type="tel" class="input" name="telefoon" id="telefoon" placeholder="06(-)12345678" required>
+                                    <p class="help is-danger">{{ $errors->first('telefoon') }}</p>
                                 </div>
                             </div>
 
@@ -128,8 +128,8 @@
                                 <label for="subject" class="label">Onderwerp</label>
 
                                 <div class="control">
-                                    <input type="text" class="input" name="subject" id="subject" required>
-                                    <p class="help is-danger">{{ $errors->first('subject') }}</p>
+                                    <input type="text" class="input" name="onderwerp" id="onderwerp" required>
+                                    <p class="help is-danger">{{ $errors->first('onderwerp') }}</p>
                                 </div>
                             </div>
 
@@ -138,8 +138,8 @@
                                 <label for="message" class="label">Bericht</label>
 
                                 <div class="control">
-                                    <textarea class="textarea has-fixed-size" name="content" id="content" required></textarea>
-                                    <p class="help is-danger">{{ $errors->first('content') }}</p>
+                                    <textarea class="textarea has-fixed-size" name="inhoud" id="inhoud" required></textarea>
+                                    <p class="help is-danger">{{ $errors->first('inhoud') }}</p>
                                 </div>
                             </div>
 
