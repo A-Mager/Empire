@@ -98,7 +98,7 @@
 
                                 <div class="control">
                                     <input type="text" class="input" name="name" id="name" required>
-                                    <p class="help is-danger">{{ $errors->first('name') }}</p>
+                                    <p class="help is-danger">{{ ($errors->first('name')) }}</p>
                                 </div>
 
                             </div>
@@ -118,7 +118,7 @@
                                 <label for="phone" class="label">Telefoon</label>
 
                                 <div class="control">
-                                    <input type="tel" class="input" name="phone" id="phone" required>
+                                    <input type="tel" class="input" name="phone" id="phone" placeholder="06(-)12345678" required>
                                     <p class="help is-danger">{{ $errors->first('phone') }}</p>
                                 </div>
                             </div>
